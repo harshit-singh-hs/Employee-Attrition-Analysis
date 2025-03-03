@@ -1,34 +1,52 @@
-# Attrition Analysis Project
+# Employee Attrition Analysis
 
-## Project Overview
-This project aims to analyze employee attrition data to understand the relationship between various factors such as job involvement, hourly rate, monthly rate, overtime, and salary hike.
+This repository contains a Jupyter Notebook for analyzing employee attrition data. The analysis includes data preprocessing, exploratory data analysis (EDA), and visualization to identify key factors influencing employee turnover.
 
-## Dataset Description
-The dataset contains employee information with the following key features:
-- JobInvolvement
-- HourlyRate
-- MonthlyRate
-- OverTime
-- PercentSalaryHike
+## Dataset
+The dataset (`ATTRITION.csv`) contains employee-related attributes such as demographics, job roles, and attrition status.
+
+## Data Checks Performed
+- Checking for missing values (No missing values found)
+- Checking unique values in each column
+- Identifying duplicate rows
+- Statistical summary of numerical columns
+- Exploring different categories in categorical columns
+
+## Dependencies
+The analysis requires the following Python libraries:
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+sns.set_theme()
+import warnings
+warnings.filterwarnings('ignore')
+```
+
+## Usage
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/your-repo.git
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd your-repo
+   ```
+3. Open the Jupyter Notebook:
+   ```sh
+   jupyter notebook attrition.ipynb
+   ```
 
 ## Visualization
-The project uses bar graphs to visualize the following relationships:
-1. Hourly Rate vs Job Involvement
-2. Monthly Rate vs Job Involvement
-3. Over Time vs Job Involvement
-4. Salary Hike vs Job Involvement
+The notebook includes various visualizations to better understand attrition trends, including:
+- Histograms and distribution plots
+- Correlation heatmaps
+- Categorical analysis through bar plots
 
-## Technologies Used
-- Python
-- Pandas
-- Matplotlib
+## Contributing
+Feel free to fork this repository and submit pull requests with improvements.
 
-## How to Run the Project
-1. Install required libraries:
-   ```bash
-   pip install pandas matplotlib
+## License
+This project is licensed under the MIT License.
 
-2. Run the Python script to generate the visualizations.
-
-## Conclusion
-The visualizations help in understanding how job involvement is influenced by different employee attributes, aiding in attrition analysis.
