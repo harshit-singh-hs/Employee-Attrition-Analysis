@@ -1,51 +1,74 @@
-# Employee Attrition Analysis
+# Project Title: Employee Attrition Analysis
 
-This repository contains a Jupyter Notebook for analyzing employee attrition data. The analysis includes data preprocessing, exploratory data analysis (EDA), and visualization to identify key factors influencing employee turnover.
+## Project Overview
+This project analyzes employee attrition using machine learning techniques. The goal is to identify key factors influencing employee turnover and build predictive models to mitigate attrition risks.
 
-## Dataset
-The dataset (`ATTRITION.csv`) contains employee-related attributes such as demographics, job roles, and attrition status.
-
-## Data Checks Performed
-- Checking for missing values (No missing values found)
-- Checking unique values in each column
-- Identifying duplicate rows
-- Statistical summary of numerical columns
-- Exploring different categories in categorical columns
-
-## Dependencies
-The analysis requires the following Python libraries:
-```python
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-sns.set_theme()
-import warnings
-warnings.filterwarnings('ignore')
+## Project Structure
+```
+Employee-Attrition-Analysis/
+│
+├── data/                   # Raw and processed datasets
+│   ├── raw/                # Original dataset files
+│   ├── processed/          # Cleaned and transformed data
+│
+├── notebooks/              # Jupyter notebooks for EDA and modeling
+│   ├── 01_EDA.ipynb        # Exploratory Data Analysis
+│   ├── 02_Feature_Engineering.ipynb # Feature selection and engineering
+│   ├── 03_Model_Training.ipynb  # Training machine learning models
+│
+├── src/                    # Source code for the project
+│   ├── data_preprocessing.py  # Data cleaning and transformation scripts
+│   ├── model_training.py      # Machine learning model training
+│   ├── model_evaluation.py    # Model evaluation metrics
+│
+├── models/                 # Saved models and outputs
+│
+├── reports/                # Generated reports and visualizations
+│   ├── summary_report.pdf  # Final project summary
+│
+├── requirements.txt        # Dependencies and libraries
+├── README.md               # Project documentation
+├── .gitignore              # Files to ignore in Git commits
 ```
 
-## Usage
+## Installation
+To set up the project locally, follow these steps:
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/your-username/your-repository.git
    ```
-2. Navigate to the project folder:
+2. Navigate to the project directory:
    ```sh
-   cd your-repo
+   cd Employee-Attrition-Analysis
    ```
-3. Open the Jupyter Notebook:
+3. Create a virtual environment (optional but recommended):
    ```sh
-   jupyter notebook attrition.ipynb
+   python -m venv env
+   source env/bin/activate  # On Windows use: env\Scripts\activate
+   ```
+4. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
    ```
 
-## Visualization
-The notebook includes various visualizations to better understand attrition trends, including:
-- Histograms and distribution plots
-- Correlation heatmaps
-- Categorical analysis through bar plots
+## Usage
+1. Open Jupyter Notebook:
+   ```sh
+   jupyter notebook
+   ```
+2. Run the notebooks inside the `notebooks/` folder to perform analysis.
+3. Modify `src/model_training.py` to train and evaluate models.
+
+## Updating and Pushing to GitHub
+After making changes, follow these steps to commit and push to GitHub:
+```sh
+git add .
+git commit -m "Updated data processing script"
+git push origin main
+```
 
 ## Contributing
-Feel free to fork this repository and submit pull requests with improvements.
+Feel free to fork this repository, make enhancements, and submit pull requests.
 
 ## License
 This project is licensed under the MIT License.
