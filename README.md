@@ -7,20 +7,13 @@ This project analyzes employee attrition using machine learning techniques. The 
 ```
 Employee-Attrition-Analysis/
 │
-├── data/                   # Raw and processed datasets
-│   ├── raw/                # Original dataset files
-│   ├── processed/          # Cleaned and transformed data
+├── attrition.csv            # Raw and processed datasets
 │
-├── notebooks/              # Jupyter notebooks for EDA and modeling
-│   ├── 01_EDA.ipynb        # Exploratory Data Analysis
-│   ├── 02_Feature_Engineering.ipynb # Feature selection and engineering
-│   ├── 03_Model_Training.ipynb  # Training machine learning models
-│   ├── 04_model_evaluation.ipynb    # Model evaluation metrics
+├── LICENSE                  # Project License
 │
-
-│
-├── requirements.txt        # Dependencies and libraries
-├── README.md               # Project documentation
+├── attrition.ipynb          # Exploratory Data Analysis , Feature Selection , Machine learning model and evaluation metrics.
+│                
+├── README.md                # Project documentation
 ```
 
 ## Installation
