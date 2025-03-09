@@ -15,20 +15,12 @@ Employee-Attrition-Analysis/
 │   ├── 01_EDA.ipynb        # Exploratory Data Analysis
 │   ├── 02_Feature_Engineering.ipynb # Feature selection and engineering
 │   ├── 03_Model_Training.ipynb  # Training machine learning models
+│   ├── 04_model_evaluation.py    # Model evaluation metrics
 │
-├── src/                    # Source code for the project
-│   ├── data_preprocessing.py  # Data cleaning and transformation scripts
-│   ├── model_training.py      # Machine learning model training
-│   ├── model_evaluation.py    # Model evaluation metrics
-│
-├── models/                 # Saved models and outputs
-│
-├── reports/                # Generated reports and visualizations
-│   ├── summary_report.pdf  # Final project summary
+
 │
 ├── requirements.txt        # Dependencies and libraries
 ├── README.md               # Project documentation
-├── .gitignore              # Files to ignore in Git commits
 ```
 
 ## Installation
