@@ -15,7 +15,7 @@ Employee-Attrition-Analysis/
 │   ├── 01_EDA.ipynb        # Exploratory Data Analysis
 │   ├── 02_Feature_Engineering.ipynb # Feature selection and engineering
 │   ├── 03_Model_Training.ipynb  # Training machine learning models
-│   ├── 04_model_evaluation.py    # Model evaluation metrics
+│   ├── 04_model_evaluation.ipynb    # Model evaluation metrics
 │
 
 │
