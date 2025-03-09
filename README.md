@@ -7,7 +7,7 @@ This project analyzes employee attrition using machine learning techniques. The 
 ```
 Employee-Attrition-Analysis/
 │
-├── ATTRITION.csv            # Raw and processed datasets
+├── ATTRITION.csv            # Raw datasets
 │
 ├── LICENSE                  # Project License
 │
